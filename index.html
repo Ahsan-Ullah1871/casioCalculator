@@ -25,14 +25,14 @@
                     </div>
                     <div class="col mt-2 me-2">
                         <div class="solar">
-                        
+
                         </div>
                     </div>
                 </div>
                 <div class="row  p-2 mb-2">
                     <div class="col">
                         <div class="display">
-                            <input id="displayOn" name="show" class="show1 " type="text" readonly >
+                            <input id="displayOn" name="show" class="show1 " type="text" readonly>
                             <!-- <div  id="show-1"></div> -->
                             <input id="displayOff" class="show2 " type="text" readonly>
                         </div>
@@ -49,16 +49,16 @@
                             <button class="  btn-primary buttons1 ">Shift</button>
                             <button class=" btn-primary buttons1">Alpha</button>
 
-                         </div>
+                        </div>
                         <div class="row d-flex justify-content-center">
-                          <button class=" btn-primary buttons1">OPTN</button>
-                        <button class=" btn-primary buttons1">CALC</button>
+                            <button class=" btn-primary buttons1">OPTN</button>
+                            <button class=" btn-primary buttons1">CALC</button>
                         </div>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <div class="col">
-                        <button class="  btn-primary buttons1"></button>
-                        <button class="  btn-primary buttons1"></button>
+                            <button class="  btn-primary buttons1"></button>
+                            <button class="  btn-primary buttons1"></button>
 
                         </div>
                         <div class="col">
@@ -68,14 +68,14 @@
                     </div>
                     <div class="col">
                         <div class="row d-flex justify-content-center">
-                                <button class="  btn-primary buttons1">Menu</button>
-                                <button class="  btn-primary buttons1">On</button>
-                        
+                            <button class="  btn-primary buttons1">Menu</button>
+                            <button onclick="ON()" class="  btn-primary buttons1" value="0">On</button>
+
                         </div>
                         <div class="row d-flex justify-content-center">
-                                <button class="btn btn-primary buttons1">B</button>
-                                <button class="btn btn-primary buttons1">X</button>
-                 
+                            <button class="btn btn-primary buttons1">B</button>
+                            <button class="btn btn-primary buttons1">X</button>
+
                         </div>
                     </div>
                 </div>
@@ -113,43 +113,45 @@
 
         <!-- part 4 -->
         <section>
-            <div class="part4 ">
+            <div class="part4 " id="buttons">
                 <div class="row d-flex  justify-content-center">
-                   <input type="button" class="btn btn-primary buttons3" value="7" onclick="clickNum(7)">
-                   <input type="button" class="btn btn-primary buttons3" value="8" onclick="clickNum(8)">
-                   <input type="button" class="btn btn-primary buttons3" value="9" onclick="clickNum(9)">
-                   <input style="background-color: #1f48a1;" type="button" class="btn btn-primary buttons3" value="DEL" onclick="clickDel()">
-                   <input style="background-color: #284991;" type="button" class="btn btn-primary buttons3" value="AC" onclick="clickAc('')">
+                    <input type="button" class="btn btn-primary buttons3" value="7" >
+                    <input type="button" class="btn btn-primary buttons3" value="8" >
+                    <input type="button" class="btn btn-primary buttons3" value="9" >
+                    <input style="background-color: #1f48a1;" type="button" class="btn btn-primary buttons3" value="DEL">
+                        
+                    <input style="background-color: #284991;" type="button" class="btn btn-primary buttons3" value="AC"
+                        >
 
 
                 </div>
 
                 <div class="row d-flex  justify-content-center">
 
-                <input type="button" class="btn btn-primary buttons3" value="4" onclick="clickNum(4)">
-                <input type="button" class="btn btn-primary buttons3" value="5" onclick="clickNum(5)">
-                <input type="button" class="btn btn-primary buttons3" value="6" onclick="clickNum(6)">
-                <input type="button" class="btn btn-primary buttons3" value="*" onclick="clickNum('*')">
-                <input type="button" class="btn btn-primary buttons3" value="/" onclick="clickNum('/')">
-                   
+                    <input type="button" class="btn btn-primary buttons3" value="4" >
+                    <input type="button" class="btn btn-primary buttons3" value="5" >
+                    <input type="button" class="btn btn-primary buttons3" value="6" >
+                    <input type="button" class="btn btn-primary buttons3" value="*" >
+                    <input type="button" class="btn btn-primary buttons3" value="/" >
+
                 </div>
 
                 <div class="row d-flex  justify-content-center">
-                    <input type="button" class="btn btn-primary buttons3" value="1" onclick="clickNum(1)">
-                    <input type="button" class="btn btn-primary buttons3" value="2" onclick="clickNum(2)">
-                    <input type="button" class="btn btn-primary buttons3" value="3" onclick="clickNum(3)">
-                    <input type="button" class="btn btn-primary buttons3" value="+" onclick="clickNum('+')">
-                    <input type="button" class="btn btn-primary buttons3" value="-" onclick="clickNum('-')">
+                    <input type="button" class="btn btn-primary buttons3" value="1" >
+                    <input type="button" class="btn btn-primary buttons3" value="2" >
+                    <input type="button" class="btn btn-primary buttons3" value="3" >
+                    <input type="button" class="btn btn-primary buttons3" value="+" >
+                    <input type="button" class="btn btn-primary buttons3" value="-" >
 
-                
+
                 </div>
                 <div class="row d-flex  justify-content-center">
 
-                <input type="button" class="btn btn-primary buttons3" value="0" onclick="clickNum(0)">
-                <input type="button" class="btn btn-primary buttons3" value="." onclick="clickNum('.')">
-                <input type="button" class="btn btn-primary buttons3" value="10x">
-                <input type="button" class="btn btn-primary buttons3" value="Ans">
-                <input type="button" class="btn btn-primary buttons3" value="=" onclick="clickEqual()">
+                    <input type="button" class="btn btn-primary buttons3" value="0" >
+                    <input type="button" class="btn btn-primary buttons3" value="." >
+                    <input type="button" class="btn btn-primary buttons3" value="10x">
+                    <input type="button" class="btn btn-primary buttons3" value="Ans">
+                    <input type="button" class="btn btn-primary buttons3" value="=" >
 
 
 
@@ -162,11 +164,11 @@
     </div>
 
 
-<div class="note container displya-absolute">
-      <h1>Note</h1>
-      <p>Now just add, subtraction ,divide and multiplication's works.
-      All futures will be added soon Inshaallah.</p>
-</div>
+    <div class="note container displya-absolute">
+        <h1>Note</h1>
+        <p>Now just add, subtraction ,divide and multiplication's works.
+            All futures will be added soon Inshaallah.</p>
+    </div>
 
 
 
