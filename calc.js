@@ -2,6 +2,7 @@
 
 function ON() {
 	document.getElementById("displayOn").value = "0";
+	document.getElementById("displayOff").value = "";
 	
 }
 
@@ -41,7 +42,7 @@ document.getElementById("buttons").addEventListener("click", function (event) {
 		}
 		// AC:
 		else if (getValue == "AC") {
-			document.getElementById("displayOn").value = "";
+			document.getElementById("displayOn").value = "0";
 			document.getElementById("displayOff").value = "";
 		}
 		// DEL:
